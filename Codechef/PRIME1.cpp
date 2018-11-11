@@ -17,7 +17,7 @@ int main(){
         scanf("%d%d", &n, &m);
         for (int i = n; i <= m; i++){
             if (prime(i))
-				printf("%d\n", i);
+		printf("%d\n", i);
         }
         printf("\n");
     }
